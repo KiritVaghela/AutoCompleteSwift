@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336614227C4FD4690E73D88D /* libPods-SimpleAutoCompleteSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD6F1126528489DDE6E6038 /* libPods-SimpleAutoCompleteSwift.a */; };
+		E8CC84021AE143C30037B8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC84011AE143C30037B8E6 /* AppDelegate.swift */; };
+		E8CC84041AE143C30037B8E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC84031AE143C30037B8E6 /* ViewController.swift */; };
+		E8CC84071AE143C30037B8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CC84051AE143C30037B8E6 /* Main.storyboard */; };
+		E8CC84091AE143C30037B8E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CC84081AE143C30037B8E6 /* Images.xcassets */; };
+		E8CC840C1AE143C30037B8E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8CC840A1AE143C30037B8E6 /* LaunchScreen.xib */; };
+		E8CC84181AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC84171AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.swift */; };
+		E8DCED0B1AE146B200EEFB05 /* AutomCompletePlaces.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DCED031AE146B200EEFB05 /* AutomCompletePlaces.m */; };
+		E8DCED0C1AE146B200EEFB05 /* MatchedSubstrings.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DCED061AE146B200EEFB05 /* MatchedSubstrings.m */; };
+		E8DCED0D1AE146B200EEFB05 /* Predictions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DCED081AE146B200EEFB05 /* Predictions.m */; };
+		E8DCED0E1AE146B200EEFB05 /* Terms.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DCED0A1AE146B200EEFB05 /* Terms.m */; };
+		E8DCED111AE14DB300EEFB05 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCED101AE14DB300EEFB05 /* AppUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8CC84121AE143C30037B8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8CC83F41AE143C30037B8E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CC83FB1AE143C30037B8E6;
+			remoteInfo = SimpleAutoCompleteSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E7A65EB4459EB917B0E5C84 /* Pods-SimpleAutoCompleteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAutoCompleteSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleAutoCompleteSwift/Pods-SimpleAutoCompleteSwift.release.xcconfig"; sourceTree = "<group>"; };
+		57C98A942AFAC168830893EF /* Pods-SimpleAutoCompleteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAutoCompleteSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleAutoCompleteSwift/Pods-SimpleAutoCompleteSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		8DD6F1126528489DDE6E6038 /* libPods-SimpleAutoCompleteSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleAutoCompleteSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CC83FC1AE143C30037B8E6 /* SimpleAutoCompleteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAutoCompleteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CC84001AE143C30037B8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CC84011AE143C30037B8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8CC84031AE143C30037B8E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8CC84061AE143C30037B8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8CC84081AE143C30037B8E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8CC840B1AE143C30037B8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8CC84111AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAutoCompleteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CC84161AE143C30037B8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CC84171AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAutoCompleteSwiftTests.swift; sourceTree = "<group>"; };
+		E8DCED021AE146B200EEFB05 /* AutomCompletePlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomCompletePlaces.h; sourceTree = "<group>"; };
+		E8DCED031AE146B200EEFB05 /* AutomCompletePlaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutomCompletePlaces.m; sourceTree = "<group>"; };
+		E8DCED041AE146B200EEFB05 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		E8DCED051AE146B200EEFB05 /* MatchedSubstrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchedSubstrings.h; sourceTree = "<group>"; };
+		E8DCED061AE146B200EEFB05 /* MatchedSubstrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchedSubstrings.m; sourceTree = "<group>"; };
+		E8DCED071AE146B200EEFB05 /* Predictions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Predictions.h; sourceTree = "<group>"; };
+		E8DCED081AE146B200EEFB05 /* Predictions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Predictions.m; sourceTree = "<group>"; };
+		E8DCED091AE146B200EEFB05 /* Terms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terms.h; sourceTree = "<group>"; };
+		E8DCED0A1AE146B200EEFB05 /* Terms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Terms.m; sourceTree = "<group>"; };
+		E8DCED0F1AE146D600EEFB05 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		E8DCED101AE14DB300EEFB05 /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppUtils.swift; path = SimpleAutoCompleteSwift/AppUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CC83F91AE143C30037B8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336614227C4FD4690E73D88D /* libPods-SimpleAutoCompleteSwift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CC840E1AE143C30037B8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26125AC5835641B194F2525A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD6F1126528489DDE6E6038 /* libPods-SimpleAutoCompleteSwift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F83DFD8D2AA5702C62184C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C98A942AFAC168830893EF /* Pods-SimpleAutoCompleteSwift.debug.xcconfig */,
+				4E7A65EB4459EB917B0E5C84 /* Pods-SimpleAutoCompleteSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8CC83F31AE143C30037B8E6 = {
+			isa = PBXGroup;
+			children = (
+				E8DCED0F1AE146D600EEFB05 /* bridge.h */,
+				E8DCED101AE14DB300EEFB05 /* AppUtils.swift */,
+				E8CC83FE1AE143C30037B8E6 /* SimpleAutoCompleteSwift */,
+				E8CC84141AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests */,
+				E8CC83FD1AE143C30037B8E6 /* Products */,
+				5F83DFD8D2AA5702C62184C7 /* Pods */,
+				26125AC5835641B194F2525A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CC83FD1AE143C30037B8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC83FC1AE143C30037B8E6 /* SimpleAutoCompleteSwift.app */,
+				E8CC84111AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CC83FE1AE143C30037B8E6 /* SimpleAutoCompleteSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCED011AE146B200EEFB05 /* AutoCompletePlaces */,
+				E8CC84011AE143C30037B8E6 /* AppDelegate.swift */,
+				E8CC84031AE143C30037B8E6 /* ViewController.swift */,
+				E8CC84051AE143C30037B8E6 /* Main.storyboard */,
+				E8CC84081AE143C30037B8E6 /* Images.xcassets */,
+				E8CC840A1AE143C30037B8E6 /* LaunchScreen.xib */,
+				E8CC83FF1AE143C30037B8E6 /* Supporting Files */,
+			);
+			path = SimpleAutoCompleteSwift;
+			sourceTree = "<group>";
+		};
+		E8CC83FF1AE143C30037B8E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC84001AE143C30037B8E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8CC84141AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC84171AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.swift */,
+				E8CC84151AE143C30037B8E6 /* Supporting Files */,
+			);
+			path = SimpleAutoCompleteSwiftTests;
+			sourceTree = "<group>";
+		};
+		E8CC84151AE143C30037B8E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC84161AE143C30037B8E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DCED011AE146B200EEFB05 /* AutoCompletePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCED021AE146B200EEFB05 /* AutomCompletePlaces.h */,
+				E8DCED031AE146B200EEFB05 /* AutomCompletePlaces.m */,
+				E8DCED041AE146B200EEFB05 /* DataModels.h */,
+				E8DCED051AE146B200EEFB05 /* MatchedSubstrings.h */,
+				E8DCED061AE146B200EEFB05 /* MatchedSubstrings.m */,
+				E8DCED071AE146B200EEFB05 /* Predictions.h */,
+				E8DCED081AE146B200EEFB05 /* Predictions.m */,
+				E8DCED091AE146B200EEFB05 /* Terms.h */,
+				E8DCED0A1AE146B200EEFB05 /* Terms.m */,
+			);
+			path = AutoCompletePlaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CC83FB1AE143C30037B8E6 /* SimpleAutoCompleteSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CC841B1AE143C30037B8E6 /* Build configuration list for PBXNativeTarget "SimpleAutoCompleteSwift" */;
+			buildPhases = (
+				03B455D0D3DAC328584C0C48 /* Check Pods Manifest.lock */,
+				E8CC83F81AE143C30037B8E6 /* Sources */,
+				E8CC83F91AE143C30037B8E6 /* Frameworks */,
+				E8CC83FA1AE143C30037B8E6 /* Resources */,
+				56A8C1F686C16008BDBF642D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAutoCompleteSwift;
+			productName = SimpleAutoCompleteSwift;
+			productReference = E8CC83FC1AE143C30037B8E6 /* SimpleAutoCompleteSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8CC84101AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CC841E1AE143C30037B8E6 /* Build configuration list for PBXNativeTarget "SimpleAutoCompleteSwiftTests" */;
+			buildPhases = (
+				E8CC840D1AE143C30037B8E6 /* Sources */,
+				E8CC840E1AE143C30037B8E6 /* Frameworks */,
+				E8CC840F1AE143C30037B8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8CC84131AE143C30037B8E6 /* PBXTargetDependency */,
+			);
+			name = SimpleAutoCompleteSwiftTests;
+			productName = SimpleAutoCompleteSwiftTests;
+			productReference = E8CC84111AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CC83F41AE143C30037B8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kirit Vaghela";
+				TargetAttributes = {
+					E8CC83FB1AE143C30037B8E6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E8CC84101AE143C30037B8E6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E8CC83FB1AE143C30037B8E6;
+					};
+				};
+			};
+			buildConfigurationList = E8CC83F71AE143C30037B8E6 /* Build configuration list for PBXProject "SimpleAutoCompleteSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CC83F31AE143C30037B8E6;
+			productRefGroup = E8CC83FD1AE143C30037B8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CC83FB1AE143C30037B8E6 /* SimpleAutoCompleteSwift */,
+				E8CC84101AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CC83FA1AE143C30037B8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CC84071AE143C30037B8E6 /* Main.storyboard in Resources */,
+				E8CC840C1AE143C30037B8E6 /* LaunchScreen.xib in Resources */,
+				E8CC84091AE143C30037B8E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CC840F1AE143C30037B8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03B455D0D3DAC328584C0C48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56A8C1F686C16008BDBF642D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleAutoCompleteSwift/Pods-SimpleAutoCompleteSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CC83F81AE143C30037B8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DCED0D1AE146B200EEFB05 /* Predictions.m in Sources */,
+				E8DCED0C1AE146B200EEFB05 /* MatchedSubstrings.m in Sources */,
+				E8CC84041AE143C30037B8E6 /* ViewController.swift in Sources */,
+				E8DCED0E1AE146B200EEFB05 /* Terms.m in Sources */,
+				E8DCED0B1AE146B200EEFB05 /* AutomCompletePlaces.m in Sources */,
+				E8DCED111AE14DB300EEFB05 /* AppUtils.swift in Sources */,
+				E8CC84021AE143C30037B8E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CC840D1AE143C30037B8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CC84181AE143C30037B8E6 /* SimpleAutoCompleteSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8CC84131AE143C30037B8E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8CC83FB1AE143C30037B8E6 /* SimpleAutoCompleteSwift */;
+			targetProxy = E8CC84121AE143C30037B8E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8CC84051AE143C30037B8E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CC84061AE143C30037B8E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8CC840A1AE143C30037B8E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CC840B1AE143C30037B8E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8CC84191AE143C30037B8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CC841A1AE143C30037B8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CC841C1AE143C30037B8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C98A942AFAC168830893EF /* Pods-SimpleAutoCompleteSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleAutoCompleteSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Debug;
+		};
+		E8CC841D1AE143C30037B8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7A65EB4459EB917B0E5C84 /* Pods-SimpleAutoCompleteSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleAutoCompleteSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+			};
+			name = Release;
+		};
+		E8CC841F1AE143C30037B8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleAutoCompleteSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAutoCompleteSwift.app/SimpleAutoCompleteSwift";
+			};
+			name = Debug;
+		};
+		E8CC84201AE143C30037B8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleAutoCompleteSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAutoCompleteSwift.app/SimpleAutoCompleteSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CC83F71AE143C30037B8E6 /* Build configuration list for PBXProject "SimpleAutoCompleteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CC84191AE143C30037B8E6 /* Debug */,
+				E8CC841A1AE143C30037B8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CC841B1AE143C30037B8E6 /* Build configuration list for PBXNativeTarget "SimpleAutoCompleteSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CC841C1AE143C30037B8E6 /* Debug */,
+				E8CC841D1AE143C30037B8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CC841E1AE143C30037B8E6 /* Build configuration list for PBXNativeTarget "SimpleAutoCompleteSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CC841F1AE143C30037B8E6 /* Debug */,
+				E8CC84201AE143C30037B8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CC83F41AE143C30037B8E6 /* Project object */;
+}
